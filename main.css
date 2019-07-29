@@ -1,0 +1,87 @@
+:root {
+    --color-header:#008fd5;
+    --color-web_design:#e6eff6;
+    --color-login_or:#1065a1;
+    --color-login:#1471b3;
+    --color-primary: #000;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: var(--color-header);
+    padding: 15px;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login{
+    display: flex;
+    position: relative;
+    list-style: none;
+    background: var(--color-login);
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+.login .or {
+    position: absolute;
+    top: -4.5px;
+    left: 50%;
+    margin-left: -20px;
+    border-radius: 50px;
+    background: var(--color-login_or);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+.login__item{
+    padding: 6px 0;
+    width: 100px;
+    text-align: center;
+}
+.login span{
+    color: #fff;
+}
+.login__link{
+    text-decoration: none;
+}
+.design-services{
+    background-color: var(--color-web_design);
+}
+.slogan{
+    text-align: center;
+
+}
+.slogan__title{
+
+  font-size: 2.25rem;
+  color:var(--color-primary)  
+}
+a{
+    text-decoration: none;
+}
+
+.seach__btn{
+   background: #66FF66;
+   font-size: 1.125rem;
+   font-style: normal;
+   border-radius: 5px;
+   font-family: cursive;
+   padding: 12px ;
+
+}
+.seach__text{
+    padding: 15px 100px;
+    border-radius: 5px;
+}
+
+
+
